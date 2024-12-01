@@ -1,4 +1,4 @@
-ruby "3.1.6"
+ruby "3.1.2"
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
@@ -61,5 +61,5 @@ end
 
 
 group :production do
-  gem "pg", "~> 0.18"
+  gem "pg"
 end
